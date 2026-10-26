@@ -1,5 +1,9 @@
 # gdopus
 
+TLDR: run this to download and build the whole thing in one go:
+`git clone https://github.com/zodiepupper/gdopus --recurse-submodules && cd gdopus/src/opus/ && mkdir build && cd build && cmake -DCMAKE_POSITION_INDEPENDENT_CODE=ON .. && cmake --build . && cd ../../../ && scons`
+
+
 To build, please follow the following instructions:
 - `cd src/opus/` to get into the opus directory
 - look at the README to find what dependencies you need to install
